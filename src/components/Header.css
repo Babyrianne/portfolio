@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+
+header {
+    background-color: #4a90e2; /* Background color */
+    color: #f09595; /* Text color */
+    padding: 15px; /* Padding around the header */
+    width: 100%; /* Occupy full width */
+    text-align: center; /* Center text */
+  }
+  
+  nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the nav items */
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for horizontal layout */
+  }
+  
+  li {
+    margin: 0 15px; /* Space between items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(19, 17, 17); /* Link color */
+  }
+  

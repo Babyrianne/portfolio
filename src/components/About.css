@@ -1,0 +1,41 @@
+/* src/pages/About.css */
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1200px; /* Increased width for better readability */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* More rounded corners */
+    background: #ffffff; /* White background for clarity */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+  }
+  
+  h2 {
+    color: #4a90e2; /* Soft blue for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2em; /* Larger font size for emphasis */
+  }
+  
+  .profile-pic {
+    display: block; /* Center the image */
+    margin: 0 auto 20px; /* Center and add space below */
+    max-width: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular image */
+    border: 3px solid #4a90e2; /* Border around the image */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  p {
+    color: #333; /* Dark text for readability */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-size: 1.1em; /* Slightly larger font for better readability */
+  }
+  
+  @media (max-width: 600px) {
+    section {
+      width: 90%; /* Responsive design for smaller screens */
+    }
+  }
+  

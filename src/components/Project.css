@@ -1,0 +1,64 @@
+/* src/pages/Project.css */
+
+section {
+    padding: 30px; /* Space around the section */
+    margin: 20px auto; /* Center the section */
+    max-width: 800px; /* Increased max width for better layout */
+    background: #ffffff; /* White background for clarity */
+    border: 1px solid #ccc; /* Light border for definition */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text inside the section */
+  }
+  
+  h2 {
+    color: #4a90e2; /* Soft blue color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2em; /* Larger font size */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the list items */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+  }
+  
+  li {
+    padding: 15px; /* Space around each project */
+    margin: 10px; /* Space between items */
+    background: #f9f9f9; /* Light background for items */
+    border: 1px solid #eaeaea; /* Light border */
+    border-radius: 5px; /* Rounded corners for items */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+    text-align: center; /* Center text inside each list item */
+  }
+  
+  li:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .project-image {
+    width: 150px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    margin-bottom: 10px; /* Space below the image */
+    display: block; /* Ensure it behaves like a block element */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+  }
+  
+  .project-description {
+    font-size: 0.9em; /* Smaller font for description */
+    color: #666; /* Grey color for readability */
+    margin-top: 5px; /* Space above description */
+  }
+  
+  @media (max-width: 600px) {
+    section {
+      width: 90%; /* Responsive design for smaller screens */
+    }
+  }
+  
